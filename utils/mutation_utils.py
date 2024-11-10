@@ -15,8 +15,8 @@ from tensorflow.keras import Sequential as TKS
 from keras.models import Model as KM
 from tensorflow.keras import Model as TKM
 
-from keras.engine.sequential import Sequential as KES
-from keras.engine.training import Model as KEM
+from tensorflow.keras import Sequential as KES
+from tensorflow.keras.models import Model as KEM
 from tensorflow.python.keras.engine.sequential import Sequential as TKES
 from tensorflow.python.keras.engine.training import Model as TKEM
 

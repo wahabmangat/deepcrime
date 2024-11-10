@@ -23,7 +23,7 @@ def run_automate():
 
     data['subject_name'] = 'mnist'
     data['subject_path'] = os.path.join('test_models', 'mnist_conv.py')
-    data['mutations'] = ["change_optimisation_function"]
+    data['mutations'] = ["remove_bias"]
 
     dc_props.write_properties(data)
 
