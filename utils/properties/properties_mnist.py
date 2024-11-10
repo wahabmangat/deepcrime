@@ -97,13 +97,13 @@ add_noise = {
 change_epochs = {
     "name": 'change_epochs',
     "change_epochs_size": False,
-    "pct": 12,
-    "bs_lower_bound": 12,
+    "pct": 10,
+    "bs_lower_bound": 10,
     "bs_upper_bound": 1,
     "bs_rounding_type": 'int',
     "annotation_params": [],
     "search_type": 'binary',
-    "precision": 1,
+    "precision": 2,
     "runs_number": 20,
 }
 
@@ -157,7 +157,7 @@ remove_activation_function = {
     "runs_number": 20,
     "annotation_params": [],
     "layer_mutation": True,
-    "current_index": 0,
+    "current_index": 2,
     "mutation_target": None,
     "search_type": None
 }
@@ -220,7 +220,7 @@ add_bias = {
     "runs_number": 20,
     "annotation_params": [],
     "layer_mutation": True,
-    "current_index": 0,
+    "current_index": 2,
     "mutation_target": None,
     "search_type": None
 }
@@ -231,7 +231,7 @@ remove_bias = {
     "runs_number": 20,
     "annotation_params": [],
     "layer_mutation": True,
-    "current_index": 0,
+    "current_index": 2,
     "mutation_target": None,
     "search_type": None
 }
